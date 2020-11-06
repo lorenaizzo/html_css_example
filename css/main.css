@@ -1,0 +1,136 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right: 10px; 
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    padding: 0;
+
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    flex: 2;
+
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+footer p {
+    margin: 0;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+footer h1 {
+    margin: 0;
+    color: whitesmoke;
+}
+
+#img1 {
+    width: 300px;
+    /*height: 278px;*/
+}
+
+#img2 {
+    width: 290px;
+    /*height: 626px;*/
+}
+
+#img3 {
+    width: 290px;
+    /*height: 626px;*/
+}
+
+#img4 {
+    width: 290px;
+    /*height: 260px;*/
+}
+
+#img5 {
+    width: 290px;
+    /*height: 278px;*/
+}
+
+#img6 {
+    width: 290px;
+    /*height: 278px;*/
+}
+
+.img-aside {
+    width: 180px;
+    /*height: 144px;*/
+}

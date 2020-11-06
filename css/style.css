@@ -1,0 +1,141 @@
+body {
+    background-color: whitesmoke ;
+    margin: 0px;
+}
+
+.up {
+    position: fixed;
+    top: 450px;
+    right: 15px;
+    border-radius: 50%;
+    background-color: rgb(173, 170, 170);
+    z-index: 1;
+}
+
+.container {
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid grey;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    margin: 5px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 3;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.descripcion {
+    width: 350px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content {
+    border-bottom: .5px solid grey;
+}
+
+article {
+    border-bottom: .5px solid grey;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: gainsboro;
+    height: 200px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+
+footer p {
+    margin-top: 0px;
+}
+
+footer h1 {
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.content p {
+    font-size: 10px;
+}
+
+.imgArt {
+    width: 350px;
+
+}
+
+.img-aside {
+    width: 150px;
+}
